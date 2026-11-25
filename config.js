@@ -1,9 +1,6 @@
-// Platom – Firebase podešavanje (za nalog i sinhronizaciju).
-// Ostavi prazno = aplikacija radi bez naloga, podaci ostaju na uređaju.
-// Uputstvo: FIREBASE.txt
 window.PLATOM_FIREBASE = {
-  apiKey: "",
-  authDomain: "",
-  projectId: "",
-  appId: ""
+  apiKey: "OVDE_NALEPI_apiKey",
+  authDomain: "platom-alpha.firebaseapp.com",
+  projectId: "platom-alpha",
+  appId: "1:485725098142:web:51f6825c8d2ced79406b8f"
 };
