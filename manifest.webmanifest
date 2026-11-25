@@ -1,0 +1,3 @@
+{ "name": "Platom – planer", "short_name": "Platom", "lang": "sr", "start_url": "./", "scope": "./", "display": "standalone",
+  "background_color": "#fcfcfc", "theme_color": "#fcfcfc", "description": "Obaveze, troškovi, navike, odmor i važni datumi.",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }] }

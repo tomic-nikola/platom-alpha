@@ -1,0 +1,13 @@
+NALOG I SINHRONIZACIJA (Firebase) – oko 10 minuta, besplatno
+
+1. Idi na https://console.firebase.google.com → "Add project" → ime "platom" (Analytics nije potreban).
+2. Build → Authentication → Get started → Sign-in method → uključi "Email/Password".
+3. Build → Firestore Database → Create database → izaberi lokaciju (npr. eur3) → Production mode.
+4. Firestore → Rules → zameni sadržajem fajla firestore.rules → Publish.
+5. Project settings (zupčanik) → Your apps → ikonica </> (Web) → ime "platom" → Register.
+   Dobićeš firebaseConfig: apiKey, authDomain, projectId, appId.
+6. Te četiri vrednosti upiši u config.js i otpremi ga na GitHub.
+7. Authentication → Settings → Authorized domains → dodaj TVOJE-IME.github.io
+
+Gotovo: pri otvaranju sajta pojaviće se ekran za prijavu (Prijava / Novi nalog / Nastavi bez naloga).
+Podaci se šifruju na uređaju tvojom šifrom pre slanja – na serveru su nečitljivi.
